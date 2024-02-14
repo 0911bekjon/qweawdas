@@ -29,6 +29,7 @@ body {
     width: 100%;
     height: 600px;
     background-color: #0C0B08;
+    position: relative;
 }
 .conteier header nav .navLinks ul {
     display: flex;
@@ -59,4 +60,112 @@ width: 130px;
     font-size: 14px;
     font-weight: 600;
     color: #fff;
+}
+.conteier header .headerContent {
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.conteier header .headerContent .header_title
+ {
+    width: 40%;
+    height: 100%;
+    
+}
+.conteier header .headerContent .header_img {
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+.conteier header .headerContent  .header_img .img_top {
+    width: 65%;
+    height: 55%;
+    background-color: #DCCA87;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.conteier header .headerContent  .header_img .img_bottom {
+    width: 65%;
+    height: 55%;
+    background-color: #DCCA87;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.conteier header .headerContent  .header_img img {
+        width: 94%;
+        height: 94%;
+        z-index: 100;
+        position: relative;
+        left: 3%;
+        top: 3%;
+        object-fit: cover;
+}
+.conteier header .headerContent .header_title {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+}
+.conteier header .headerContent .header_title .p_text {
+        font-family: "Cormorant Upright", serif;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+}
+.conteier header .headerContent .header_title img {
+    object-fit: cover;
+    width: 40px;
+    position: relative;
+    top: -5px;
+}
+.conteier header .headerContent .header_title h1 {
+     font-size: 80px;     
+     font-family: "Cormorant Upright", serif;
+     color: #DCCA87;
+     text-transform: capitalize;
+     font-weight: 700;
+}
+.conteier header .headerContent .header_title p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #aaa;
+}
+.conteier header .headerContent .header_title a {
+    border: 1px solid transparent;
+    font-weight: 500;
+    padding: 8px 32px;
+    font-family: "Cormorant Upright", serif;
+    color: #000;
+    background-color: #DCCA87;
+}
+.conteier header .hashtags {
+    width: 130px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: rotateZ(-90deg);
+}
+.conteier header .hashtags span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.conteier header p {
+    text-align: center;
+    color: #F5EFDB;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
 }
